@@ -1,7 +1,7 @@
 {
   "name": "cicd-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "GitHub Actions를 이용하여 AWS EC2에 CI/CD를 구축한 예제입니다.",
   "main": "index.js",
   "scripts": {
     "start": "node app",
@@ -13,5 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studioLuda/cicd-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/studioLuda/cicd-example/issues"
+  },
+  "homepage": "https://github.com/studioLuda/cicd-example#readme"
 }
